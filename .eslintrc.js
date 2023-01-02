@@ -23,6 +23,9 @@ module.exports = {
     'react',
   ],
   rules: {
-    'react/react-in-jsx-scope': false,
+    'react/react-in-jsx-scope': 0,
+    'linebreak-style': ["error", "unix"],
+    'react/require-default-props': 0,
+    'react/no-array-index-key': 0,
   },
 };
