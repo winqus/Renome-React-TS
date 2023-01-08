@@ -1,0 +1,21 @@
+{
+  "footer": {
+    "header": "FOLLOW US:",
+    "companyTitle": "Renome",
+    "copyrightText": "COPYRIGHT 2022 RENOME BY ESTETIQ",
+    "icons": [
+      {
+        "href": "#fb",
+        "className": "icon-facebook"
+      },
+      {
+        "href": "#twitter",
+        "className": "icon-twitter"
+      },
+      {
+        "href": "#gplus",
+        "className": "icon-google-plus"
+      }
+    ]
+  }
+}
