@@ -19,7 +19,7 @@ export default function About({
             key={index}
             src={image.path}
             alt={image.alt}
-            className={`about__image ${image.isOnRightSide ? 'about__image--right' : ''} ${image.isOnTop ? 'about__image--on-top' : ''}`}
+            className={`about__image ${image.isOnRightSide ? 'about__image--right' : 'about__image--left'} ${image.isOnTop ? 'about__image--on-top' : ''}`}
             loading="lazy"
           />
         ))}
