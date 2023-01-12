@@ -1,9 +1,15 @@
-function App() {
+import './resets.scss';
+import Navbar from './components/navbar/organisms/Navbar/Navbar';
+import data from './pageData.json';
+
+export default function App() {
   return (
-    <div className="App">
-      React & TypeScript
-    </div>
+    <Navbar
+      title={data.navbar.title}
+      cartCount={data.navbar.cartCount}
+      cartValue={data.navbar.cartValue}
+      cartDropdownItems={data.navbar.cartDropdownItems}
+      menuData={data.navbar.menu}
+    />
   );
 }
-
-export default App;
