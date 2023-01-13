@@ -86,5 +86,35 @@
         "isOnTop": true
       }
     ]
+  },
+  "gallery": {
+    "title": "gallery",
+    "subtitle": "MORE ABOUT US VIA PHOTOS",
+    "images": [
+      {
+        "path": "./img/gallery_img_1.png",
+        "alt": "Caffe bar"
+      },
+      {
+        "path": "./img/gallery_img_3.png",
+        "alt": "Tables inside caffe bar"
+      },
+      {
+        "path": "./img/gallery_img_2.png",
+        "alt": "Old building basking in sunlight"
+      },
+      {
+        "path": "./img/gallery_img_6.png",
+        "alt": "Buttermilk donuts"
+      },
+      {
+        "path": "./img/gallery_img_5.png",
+        "alt": "Salad in a bowl"
+      },
+      {
+        "path": "./img/gallery_img_4.png",
+        "alt": "Todays specials menu"
+      }
+    ]
   }
 }

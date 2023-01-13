@@ -1,6 +1,7 @@
 import './resets.scss';
 import Navbar from './components/navbar/organisms/Navbar/Navbar';
 import About from './components/about/organisms/About/About';
+import Gallery from './components/gallery/organisms/Gallery/Gallery';
 import data from './pageData.json';
 
 export default function App() {
@@ -18,6 +19,11 @@ export default function App() {
         subtitle={data.about.subtitle}
         text={data.about.text}
         images={data.about.images}
+      />
+      <Gallery
+        title={data.gallery.title}
+        subtitle={data.gallery.subtitle}
+        images={data.gallery.images}
       />
     </>
   );
