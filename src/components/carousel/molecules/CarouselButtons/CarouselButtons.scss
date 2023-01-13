@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+.carousel {
+  &__buttons {
+    position: absolute;
+    bottom: 3.125rem;
+    left: 1.25rem;
+    display: flex;
+  }
+
+  &__btn {
+    margin-right: 0.875rem;
+    border: 0.125rem solid $primary-color;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+}
