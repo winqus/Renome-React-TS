@@ -4,7 +4,7 @@ import About from './components/about/organisms/About/About';
 import Gallery from './components/gallery/organisms/Gallery/Gallery';
 import data from './pageData.json';
 
-function App() {
+export default function App() {
   return (
     <>
       <Navbar
