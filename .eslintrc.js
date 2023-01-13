@@ -24,7 +24,7 @@ module.exports = {
   ],
   rules: {
     'react/react-in-jsx-scope': 0,
-    'linebreak-style': ["error", "windows"],
+    'linebreak-style': 0,
     'react/require-default-props': 0,
     'react/no-array-index-key': 0,
   },
