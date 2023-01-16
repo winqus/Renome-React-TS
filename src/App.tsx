@@ -1,5 +1,6 @@
 import './resets.scss';
 import Navbar from './components/navbar/organisms/Navbar/Navbar';
+import Carousel from './components/carousel/organisms/Carousel/Carousel';
 import About from './components/about/organisms/About/About';
 import Gallery from './components/gallery/organisms/Gallery/Gallery';
 import Footer from './components/footer/organisms/Footer/Footer';
@@ -14,6 +15,9 @@ export default function App() {
         cartValue={data.navbar.cartValue}
         cartDropdownItems={data.navbar.cartDropdownItems}
         menuData={data.navbar.menu}
+      />
+      <Carousel
+        slides={data.carousel.slides}
       />
       <About
         title={data.about.title}

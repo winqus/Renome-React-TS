@@ -1,3 +1,4 @@
+import './HamburgerDropdown.scss';
 import { useState, useRef, useEffect } from 'react';
 import HamburgerIcon from '../../atoms/HamburgerIcon/HamburgerIcon';
 import NavButton from '../../atoms/NavButton/NavButton';

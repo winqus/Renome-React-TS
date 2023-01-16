@@ -68,6 +68,28 @@
       }
     ]
   },
+  "carousel": {
+    "slides": [
+      {
+        "title": "made with love",
+        "subtitle": "for you",
+        "alt": "eggs and chicken",
+        "path": "./img/carousel_img_1.png"
+      },
+      {
+        "title": "made with hate",
+        "subtitle": "for myself",
+        "alt": "something more",
+        "path": "./img/carousel_img_2.png"
+      },
+      {
+        "title": "oranges and laptops",
+        "subtitle": "for everyone",
+        "alt": "oranges and laptops",
+        "path": "./img/carousel_img_3.png"
+      }
+    ]
+  },
   "about": {
     "title": "about",
     "subtitle": "WE CREATE DELICIOUS MEMORIES",

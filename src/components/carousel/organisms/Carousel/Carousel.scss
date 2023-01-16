@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.carousel {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  &__slide-track {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    list-style: none;
+    position: relative;
+    left: -100%;
+    &--sliding {
+      transition: transform 450ms ease-in;
+    }
+  }
+}
