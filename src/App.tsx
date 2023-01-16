@@ -2,6 +2,7 @@ import './resets.scss';
 import Navbar from './components/navbar/organisms/Navbar/Navbar';
 import About from './components/about/organisms/About/About';
 import Gallery from './components/gallery/organisms/Gallery/Gallery';
+import Footer from './components/footer/organisms/Footer/Footer';
 import data from './pageData.json';
 
 export default function App() {
@@ -24,6 +25,12 @@ export default function App() {
         title={data.gallery.title}
         subtitle={data.gallery.subtitle}
         images={data.gallery.images}
+      />
+      <Footer
+        header={data.footer.header}
+        companyTitle={data.footer.companyTitle}
+        copyrightText={data.footer.copyrightText}
+        icons={data.footer.icons}
       />
     </>
   );
