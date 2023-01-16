@@ -64,7 +64,7 @@ export default function DropdownMenu({
             {menu.returnMenuName
             && (
               <DropdownSubnavItem
-                href="/#"
+                href="./#"
                 title="BACK"
                 onClick={() => onChangeMenu(menu.returnMenuName ?? '')}
                 icon={arrowLeftFeaturesIcon}
